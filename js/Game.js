@@ -4,7 +4,8 @@ class Game {
   getState(){
     var gameStateRef  = database.ref('gameState');
     gameStateRef.on("value",function(data){
-       gameState = data.val();
+      //val is short for value 
+      gameState = data.val();
     })
    
   }
