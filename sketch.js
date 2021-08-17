@@ -5,6 +5,8 @@ var playerCount;
 
 var database;
 
+
+//these are 3 objects 
 var form, player, game;
 
 

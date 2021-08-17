@@ -9,6 +9,7 @@ class Player {
   }
 
   updateCount(count){
+  //forward slash refers to database 
     database.ref('/').update({
       playerCount: count
     });
